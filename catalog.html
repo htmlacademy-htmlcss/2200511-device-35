@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Девайс</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo-header" src="#" alt="Логоти Device">
+      <span class="visually-hidden">Логотип компании Девайс</span>
+      <section class="header-search">
+        <form class="search-text">
+          <label for="search">
+          <input class="search" type="search" id="search" placeholder="Текст поиска">
+          <input class="button" type="submit" value="Найти"></label>
+        </form>
+      </section>
+      <section class="user">
+        <nav class="navigation-user">
+           <ul class="navigation-user-list">
+            <li class="navigation-user-item">
+          <button class="navigation-user-button" type="button">Коля Петухов</button></li>
+          <li class="navigation-user-item">
+          <button class="navigation-user-button" type="button" disabled>Выйти</button></li>
+          <li class="navigation-user-item">
+          <button class="navigation-user-button" type="button">Cравнить</button></li>
+          <li class="navigation-user-item">
+          <button class="navigation-user-button" type="button">Корзина</button></li>
+          </ul>
+        </nav>
+        <nav class="navigation-main">
+          <ul class="navigation-main-list">
+            <li class="navigation-main-item">
+              <a class="navigation-main-link"
+              href="catalog.html">Каталог товаров</a></li>
+              <li class="navigation-main-item">
+                <a class="navigation-main-link"
+                href="delivery.html">Доствка</a></li>
+                <li class="navigation-main-item">
+                  <a class="navigation-main-link"
+                  href="guarantee.html">Гарантия</a></li>
+                  <li class="navigation-main-item">
+                    <a class="navigation-main-link"
+                    href="сontacts.html">Контакты</a></li>
+             </ul>
+           </nav>
+     </section>
+    </header>
+
+      <main class="page-monopod">
+        <h1>Моноподы для селфи</h1>
+        <nav class="navigation-page">
+          <ul class="navigation-page-list">
+            <li class="navigation-page-item">
+              <a class="main-link" href="#">Главная</a></li>
+             <li><a class="catalog-link" href="#">Каталог товаров</a></li>
+            <li> <a class="monopod-link" href="#">Моноподы для селфи</a>
+            </li>
+          </ul>
+        </nav>
+
+            <form class="filter">
+              <p>Фильтр</p>
+             <div><label for="price">Стоимость
+             <input class="range-filtr" type="range" min="0" max="20000" id="price" ></label>
+             </div>
+           <p><div>
+              <label for="color"><b>Цвет</b>
+              <input type="checkbox" name="black" id="color" checked>Черный
+              <input type="checkbox" name="white" id="color" checked>Белый
+              <input type="checkbox" name="blue" id="color">Синий
+              <input type="checkbox" name="red" id="color">Красный
+              <input type="checkbox" name="pink" id="color">Розовый
+            </label>
+           </div></p>
+                <p> <div>
+                    <label for="connection"><b>Bluetooth</b>
+                    <input type="checkbox" name="yes" id="connection" checked>Есть
+                    <input type="checkbox" name="no" id="connection">Нет
+                  </label>
+                  </div></p>
+                  <button class="button" type="button">Показать</button>
+                 </form>
+
+                 <section class="products">
+                  <form class="sort">
+                    <p>Сортировка:</p>
+                    <select name-="list">
+                      <option value="популярные">Популярные</option>
+                    </select>
+                    </form>
+                    <img class="stick-selfie-amatuer"src="#" alt="Любительская селфи-палка">
+                    <p class="name-stick"><b>Любительская селфи-палка</b></p>
+                    <p>500 р</p>
+                    <img class="stick-selfie-professional"src="#" alt="Профессиональная селфи-палка">
+                    <p class="name-stick"><b>Профессиональная селфи-палка</b></p>
+                    <p>1500 p</p>
+                    <img class="stick-selfie-unsinkable" src="#"alt="Непотопляемая селфи-палка">
+                    <p class="name-stick"><b>Непотопляемая селфи-палка</b></p>
+                    <p>2500 p</p>
+                    <img class="stick-selfie-behind me" src="#" alt="Селфи-палка Следуй за мной">
+                    <p class="name-stick"><b>Селфи-палка «Следуй за мной»</b></p>
+                    <p>1500 p</p>
+                    <a class="more-produts" href="#">Загрузить еще</a>
+
+                 </section>
+                 <footer class="page-footer">
+                  <section class="contats">
+                    <img class="logo-footer" src="#" alt="Логотип Device">
+                   <address class="contats-adress"> <p class="contacts-adress-text">Санкт-Петербург, набережная
+                      реки Карповки, 5, литера П.</p>
+                      <a class="contacts-phone" href="tel:88128121212">Тел.:+7(812)812-12-12</a>
+                    </address>
+                 </section>
+
+                    <section class="footer-link">
+                      <nav class="navigation-footer">
+                        <ul class="navigation-footer-list">
+                          <li class="navigation-footer-item">
+                            <a class="navigation-footer-link"
+                            href="delivery.html">Доставка</a>
+                          </li>
+                          <li class="navigation-footer-item">
+                            <a class="navigation-footer-link"
+                            href="garantee.html">Гарантия</a>
+                          </li>
+                          <li class="navigation-footer-item">
+                            <a class="navigation-footer-link"
+                            href="contacts.html">Контакты</a>
+                          </li>
+                          </ul>
+                      </nav>
+                </section>
+
+                           <section class="social networks">
+                            <ul class="social networks-list">
+                              <li class="social networks-item">
+                                <a class="social-link" href="https://t.me/htmlacademy">
+                                <span class="visually-hidden">Телеграм</span></a></li>
+                                <li class="social networks-item">
+                                  <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
+                                  <span class="visually-hidden">Ютуб</span></a></li>
+                                  <li class="social networks-item">
+                                    <a class="social-link" href="https://twitter.com/htmlacademy_ru">
+                                    <span class="visually-hidden">Твиттер</span></a>
+                                 </li>
+                            </ul>
+                            <p class="about-text">
+                              <a class="htmlacademy-link" href="https://htmlacademy.ru/">.htmlacademy</a></p>
+                          </section>
+                 </footer>
+
+        </main>
+
+
+  </body>
+  </html>
