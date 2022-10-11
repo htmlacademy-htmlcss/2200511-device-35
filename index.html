@@ -7,15 +7,17 @@
 <body>
   <header class="page-header">
     <a class="main-link">
-      <img class="logo" src="#" alt="Логотип интернет магазина Девайс">
+      <img class="logo-header" src="images/device-header.svg"
+       width="145" height="36"
+       alt="Логотип интернет магазина Девайс.">
     </a>
     <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
       <label for="search-field">
         <span class="visually-hidden">Поиск</span>
       </label>
-      <input type="search" name="search-field" id="search-field" placeholder="Текст поиска">
-      <button class="button-search" type="submit">Найти
-      </button>
+      <input type="search" name="search-field" id="search-field"
+       placeholder="Поиск по сайту">
+      <button class="button-search" type="submit">Найти</button>
      </form>
     <nav class="navigation-user">
       <ul class="navigation-user-list">
@@ -26,6 +28,7 @@
           <a class="navigation-link-user" href="#">Сравнить</a>
         </li>
         <li class="navigation-user-item">
+          <span class="basket-number">2</span>
           <a class="navigation-link-user" href="#">Корзина</a>
         </li>
       </ul>
@@ -77,7 +80,8 @@
     <section class="slider slider-quadracopter slider-current">
       <p><b class="numeration-slider">01</b></p>
       <a class="slider-link" href="#">
-        <img class="slider-image" src="#" alt="Квадрокоптер">
+        <img class="slider-image" src="images/quadracopter.png"
+         width="560" height="560" alt="Квадрокоптер.">
       </a>
       <button class="button-slider button-slider-perv" type="button">
         <span class="visually-hidden">Назад</span>
@@ -101,18 +105,22 @@
         </tr>
       </table>
       <a class="slider-objects slider-objects-current" href="#">
-        <span class="visually-hidden">1</span></a>
+        <span class="visually-hidden">1</span>
+      </a>
       <a class="slider-objects" href="#">
-        <span class="visually-hidden">2</span></a>
+        <span class="visually-hidden">2</span>
+      </a>
       <a class="slider-objects" href="#">
-        <span class="visually-hidden">3</span></a>
+        <span class="visually-hidden">3</span>
+      </a>
     </section>
 
 
     <section class="slider slider-bracelet slider-current">
       <p><b class="numeration-slider">02</b></p>
       <a class="slider-link" href="#">
-        <img class="slider-image" src="#" alt="Фитнес-браслет">
+        <img class="slider-image" src="images/fitness-bracelet.png"
+         width="560" height="560" alt="Фитнес-браслет.">
       </a>
       <button class="button-slider button-slider-perv" type="button">
         <span class="visually-hidden">Назад</span>
@@ -132,18 +140,22 @@
           <td class="text-characteristick">Без подзарядки</td>
         </tr>
       </table>
-      <a class="slider-objects" href="#">
-        <span class="visually-hidden">1</span></a>
-      <a class="slider-objects slider-objects-current" href="#">
-        <span class="visually-hidden">2</span></a>
-      <a class="slider-objects" href="#">
-        <span class="visually-hidden">3</span></a>
+      <button class="slider-objects" type="button">
+        <span class="visually-hidden">1</span>
+      </button>
+      <button class="slider-objects" type="button">
+        <span class="visually-hidden">2</span>
+      </button>
+      <button class="slider-objects" type="button">
+        <span class="visually-hidden">3</span>
+      </button>
     </section>
 
     <section class="slider slider-stick slider-current">
       <p><b class="numeration-slider">03</b></p>
       <a class="slider-link" href="#">
-        <img class="slider-image" src="#" alt="Палка для селфи">
+        <img class="slider-image" src="images/selfie-stick.png"
+         width="560" height="560" alt="Палка для селфи.">
       </a>
       <button class="button-slider button-slider-perv" type="button">
         <span class="visually-hidden">Назад</span>
@@ -187,64 +199,59 @@
           <li class="catalog-products-item">
             <a class="catalog-products-link" href="#">
               <h3 class="section-title">Виртуальная реальность</h3>
-              <img class="catalog-products-image" src="#" alt="Виртуальная реальность">
             </a>
           </li>
           <li class="catalog-products-item">
             <a class="catalog-products-link" href="#">
               <h3 class="section-title">Моноподы для селфи</h3>
-              <img class="catalog-products-image" src="#" alt="Моноподы для селфи">
             </a>
           </li>
           <li class="catalog-products-item">
             <a class="catalog-products-link" href="#">
               <h3 class="section-title">Экшн-камеры</h3>
-              <img class="catalog-products-image" src="#" alt="Экшн-камеры">
             </a>
           </li>
           <li class="catalog-products-item">
             <a class="catalog-products-link" href="#">
               <h3 class="section-title">Фитнес-браслеты</h3>
-              <img class="catalog-products-image" src="#" alt="Фитнес-браслеты">
             </a>
           </li>
           <li class="catalog-products-item">
             <a class="catalog-products-link" href="#">
               <h3 class="section-title">Умные часы</h3>
-              <img class="catalog-products-image" src="#" alt="Умные часы">
             </a>
           </li>
           <li class="catalog-products-item">
             <a class="catalog-products-link" href="#">
               <h3 class="section-title">Квадрокоптеры</h3>
-              <img class="catalog-products-image" src="#" alt="Квадрокоптеры">
             </a>
           </li>
         </ul>
       </nav>
     </section>
 
-    <section class="advantages">
-      <h2 class="visually-hidden">Преимущества</h2>
-      <ul class="advantages-list">
-        <li class="advantages-item">
-          <h3 class="delivery-title">Доставка</h3>
-          <button class="button button-current" type="button">Доставка</button>
-          <p class="delivery-text">Мы с удовольствием доставим ваш товар прямо
-            к вашему подъезду совершенно бесплатно! Ведь
-            мы неплохо заработаем, поднимая его на ваш этаж.</p>
-          <img class="advantages-delivery-image" src="#" alt="Курьер">
+    <section class="service">
+      <h2 class="visually-hidden">Сервис</h2>
+      <ul class="service-list">
+         <li class="servie-item">
+          <button class="button button-current"
+           type="button">Доставка</button>
+         </li>
+        <li class="service-item">
+          <button class="button" type="button">Гарантия</button>
         </li>
-        <li class="advantages-item"><button class="button" type="button">Гарантия</button>
-        </li>
-        <li class="advantages-item"><button class="button" type="button">Кредит</button>
+        <li class="service-item">
+          <button class="button" type="button">Кредит</button>
         </li>
       </ul>
+      <h3 class="delivery-title">Доставка</h3>
+      <p class="delivery-text">Мы с удовольствием доставим ваш товар прямо
+        к вашему подъезду совершенно бесплатно! Ведь
+        мы неплохо заработаем, поднимая его на ваш этаж.</p>
     </section>
 
     <section class="delivery">
       <h2 class="delivery-title">Доставим редкий товар под заказ</h2>
-      <img class="delivery-image" src="#" alt="Грузовик">
       <button class="delivery-button" type="button">
         <span class="visually-hidden">Подробнее</span>
       </button>
@@ -291,19 +298,19 @@
         спецпредложения и вот это вот всё.</p>
       <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="get">
          <label for="subscription-email">Email </label>
-        <input class="field" type="email" name="subscription-email" placeholder="Ваш e-mail" id="subscription-email"
-          required>
+        <input class="field" type="email" name="subscription-email" placeholder="Ваш e-mail"
+          id="subscription-email" required>
         <button class="button subscription-button" type="submit">Подписаться</button>
       </form>
       <p class="subscription-text">Это бесплатно</p>
-      <img class="subscription-icon" src="#" alt="Галочка">
     </section>
   </main>
 
   <footer class="page-footer">
     <section class="footer-contacts">
+      <img class="logo-footer" src="images/device-footer.svg"
+        width="145" height="36" alt="Логотип интернет магазина Девайс.">
       <h2 class="visually-hidden">Контакты</h2>
-      <img class="footer-logo-image" src="#" alt="Логотип интернет-магазина Девайс">
       <address class="footer-contacts-address">
         <p class="footer-contact-adrress-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
         <a class="footer-contact-phone" href="tel:88128121212">Тел.: +7 (812) 812-12-12</a>
@@ -337,19 +344,19 @@
           </li>
           <li class="footer-social-item">
             <a class="button-footer-social" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Ютуб</span>
+            <span class="visually-hidden">Ютуб</span>
             </a>
           </li>
           <li class="footer-social-item">
             <a class="button-footer-social" href="https://twitter.com/htmlacademy_ru">
-              <span class="visually-hidden">Твиттер</span>
+            <span class="visually-hidden">Твиттер</span>
             </a>
           </li>
         </ul>
       </nav>
       <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-        <span class="footer-academy-text">.html academy</span>
-        <img class="htmlacademy-icon" src="#" alt="Логотип htmlacademy">
+        <img class="logo-htmlacademy" src="images/logo-html.svg"
+        width="114.9" height="32.9" alt="Логотип компании Html Academy.">
       </a>
     </section>
   </footer>
