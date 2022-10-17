@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title> Девайс </title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <header class="page-header">
+  <header class="header page-header">
     <a class="main-link">
       <img class="logo-header" src="images/device-header.svg"
        width="145" height="36"
@@ -34,7 +35,7 @@
       </ul>
     </nav>
     <div class="header-catalog-products">
-      <a href="#">Каталог товаров</a>
+      <a class="catalog-link" href="#">Каталог товаров</a>
       <button class="header-catalog-products-button" type="button">
         <span class="visually-hidden">Открыть список товаров</span>
       </button>
@@ -61,16 +62,16 @@
          </ul>
       </nav>
     </div>
-    <nav class="footer-navigation">
-      <ul class="footer-navigation-list">
-        <li class="footer-navigation-item">
-          <a class="footer-navigation-link" href="#">Доставка</a>
+    <nav class="navigation-header">
+      <ul class="navigation-header-list">
+        <li class="navigation-header-item">
+          <a class="navigation-link" href="#">Доставка</a>
         </li>
-        <li class="footer-navigation-item">
-          <a class="footer-navigation-link" href="#">Гарантия</a>
+        <li class="navigation-header-item">
+          <a class="navigation-link" href="#">Гарантия</a>
         </li>
-        <li class="footer-navigation-item">
-          <a class="footer-navigation link" href="#">Контакты</a>
+        <li class="navigation-header-item">
+          <a class="navigation-link" href="#">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -100,17 +101,17 @@
           <td class="testimony">50 м</td>
         </tr>
         <tr>
-          <td class="text-characteristick">Дальность полета</td>
-          <td class="text-characteristick">Радиус поражения</td>
+          <td class="characteristick-text">Дальность полета</td>
+          <td class="characteristick-text">Радиус поражения</td>
         </tr>
       </table>
-      <a class="slider-objects slider-objects-current" href="#">
+      <button class="slider-objects" type="button">
         <span class="visually-hidden">1</span>
       </a>
-      <a class="slider-objects" href="#">
+      <button class="slider-objects" type="button">
         <span class="visually-hidden">2</span>
       </a>
-      <a class="slider-objects" href="#">
+      <button class="slider-objects" type="button">
         <span class="visually-hidden">3</span>
       </a>
     </section>
@@ -137,7 +138,7 @@
           <td class="testimony">48 часов</td>
         </tr>
         <tr>
-          <td class="text-characteristick">Без подзарядки</td>
+          <td class="characteristick-text">Без подзарядки</td>
         </tr>
       </table>
       <button class="slider-objects" type="button">
@@ -251,7 +252,7 @@
     </section>
 
     <section class="delivery">
-      <h2 class="delivery-title">Доставим редкий товар под заказ</h2>
+      <h2 class="delivery-subtitle">Доставим редкий товар под заказ</h2>
       <button class="delivery-button" type="button">
         <span class="visually-hidden">Подробнее</span>
       </button>
@@ -272,7 +273,7 @@
           <b class="transport-company-text">ТоксБерри</b>
         </li>
       </ul>
-      <a class="button" href="#">Подробнее о нас</a>
+      <a class="more-show-link" href="#">Подробнее о нас</a>
     </section>
 
     <section class="contacts">
@@ -288,7 +289,7 @@
       <h3 class="contacts-subtitle">Время работы</h3>
       <p class="contacts-text">пн—пт: с 10:00 до 22:00</p>
       <p class="contacts-text">сб—вс: с 10:00 до 19:00</p>
-      <a class="button" href="#">Напишите нам</a>
+      <a class="more-show-link" href="#">Напишите нам</a>
     </section>
 
     <section class="subscription">
@@ -300,7 +301,9 @@
          <label for="subscription-email">Email </label>
         <input class="field" type="email" name="subscription-email" placeholder="Ваш e-mail"
           id="subscription-email" required>
-        <button class="button subscription-button" type="submit">Подписаться</button>
+        <button class="button subscription-button more-show-link"
+           type="submit">Подписаться
+        </button>
       </form>
       <p class="subscription-text">Это бесплатно</p>
     </section>
@@ -310,45 +313,49 @@
     <section class="footer-contacts">
       <img class="logo-footer" src="images/device-footer.svg"
         width="145" height="36" alt="Логотип интернет магазина Девайс.">
-      <h2 class="visually-hidden">Контакты</h2>
-      <address class="footer-contacts-address">
-        <p class="footer-contact-adrress-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-        <a class="footer-contact-phone" href="tel:88128121212">Тел.: +7 (812) 812-12-12</a>
+      <h2 class="visually-hidden footer-title">Контакты</h2>
+      <address class="footer-address-contacts address-contacts">
+        <p class="footer-contact-adrress-text ">
+          Санкт-Петербург, набережная реки Карповки, 5, литера П.
+        </p>
+        <a class="footer-contact-phone contacts-phone"
+           href="tel:88128121212">Тел.: +7 (812) 812-12-12
+        </a>
       </address>
     </section>
 
     <section class="navigation-main footer-navigation">
-      <h2 class="visually-hidden">Навигация</h2>
+      <h2 class="visually-hidden  footer-title">Навигация</h2>
       <nav class="footer-navigation">
         <ul class="footer-navigation-list">
           <li class="footer-navigation-item">
-            <a class="footer-navigation-link" href="#">Доставка</a>
+            <a class="navigation-link navigation-link-footer href="#">Доставка</a>
           </li>
           <li class="footer-navigation-item">
-            <a class="footer-navigation-link" href="#">Гарантия</a>
+            <a class="navigation-link navigation-link-footer" href="#">Гарантия</a>
           </li>
           <li class="footer-navigation-item">
-            <a class="footer-navigation link" href="#">Контакты</a>
+            <a class="navigation-link navigation-link-footer" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
     </section>
     <section class="footer-social">
-      <h2 class="visually-hidden">Социальные сети</h2>
+      <h2 class="visually-hidden  footer-title">Социальные сети</h2>
       <nav class="navigation-footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="button-footer-social" href="https://t.me/htmlacademy">
+            <a class="button-footer-social socail-telegramm" href="https://t.me/htmlacademy">
               <span class="visually-hidden">Телеграмм</span>
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="button-footer-social" href="https://www.youtube.com/user/htmlacademyru">
+            <a class="button-footer-social social-youtube" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">Ютуб</span>
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="button-footer-social" href="https://twitter.com/htmlacademy_ru">
+            <a class="button-footer-social social-twitter" href="https://twitter.com/htmlacademy_ru">
             <span class="visually-hidden">Твиттер</span>
             </a>
           </li>
